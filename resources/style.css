@@ -1,0 +1,142 @@
+
+
+body{
+    background-image: linear-gradient(to top left, rgb(5, 5, 150), rgb(0, 0, 0));
+    height: 1000px;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section{
+    text-align: center;
+    position: relative;
+    top: 10rem;
+    background-color: #001533;
+    color: white;
+    width: 900px;
+    height: 700px;
+    width: 650px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 2px solid rgb(99, 185, 255);
+    border-radius: 12px;
+}
+
+input{
+    border: 2px solid black;
+    height: 2rem;
+    background-color: rgba(255, 255, 255, 0.651);
+    border-radius: 8px;
+    width: 100%;
+
+}
+
+input:focus{
+    transition: .2s;
+    background-color: white;
+    outline:none;
+    display: inline;
+}
+
+input:hover{
+    transition: .2s;
+    background-color: white;
+    outline:none;
+    display: inline;
+
+}
+
+form{
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+#username{
+    float: left;
+    width: 45%;
+    text-align: left;
+}
+
+#passWord{
+    text-align: left;
+    width: 45%;
+    float: right;
+}
+
+#email{
+    float: left;
+    text-align: left;
+    width: 45%;
+    position: relative;
+    top: 20px;
+}
+
+#birth{
+    float: right;
+    text-align: left;
+    width: 45%;
+    position: relative;
+    top: 20px;
+}
+
+#year{
+    width: 30%;
+}
+
+#day{
+    width: 20%;
+}
+
+#month{
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 2rem;
+    background-color: rgba(255, 255, 255, 0.651);
+}
+#month:hover{
+    background-color:white;
+    transition: .2s
+}
+#month:focus{
+    background-color: white;
+}
+
+#agree{
+    float:left;
+    position: relative;
+    top: 120px;
+    white-space: nowrap;
+}
+
+#submitButton{
+    position: absolute;
+    top:65%;
+    left: 50%;
+    transform: translate(-50%, 0);  
+}
+
+#submit{
+    width: 300px;
+    background-color: rgb(99, 185, 255);
+    font-weight: bold;
+    font-size: 15px;
+    height: 40px;
+}
+#submit:hover{
+    background-color: rgb(168, 213, 250);
+    cursor:pointer;
+};
+
+
+
+
+
+
