@@ -1,9 +1,12 @@
 
+html{
+    background-image: linear-gradient(to top left, rgb(5, 5, 150), rgb(0, 0, 0));
+    height: 100%;
+
+}
 
 body{
-    background-image: linear-gradient(to top left, rgb(5, 5, 150), rgb(0, 0, 0));
-    background-repeat: no-repeat;
-    height: 1000px;
+    height: 100%;
 }
 
 
